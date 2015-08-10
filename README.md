@@ -8,5 +8,7 @@ Used [James Montemagno's VS Template](https://visualstudiogallery.msdn.microsoft
 Sample usage:
 
 <pre><code>
+using GetLocalFilePath.Plugin;
+...
 Console.WriteLine (CrossGetLocalFilePath.Current.GetLocalPath("mydb.db3"));
 </code></pre>
