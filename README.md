@@ -8,9 +8,5 @@ Used [James Montemagno's VS Template](https://visualstudiogallery.msdn.microsoft
 Sample usage:
 
 <pre><code>
-	var fp = new GetLocalFilePathImplementation();
-	string dbpath = fp.GetLocalPath("users.db3");
-	
-	// Log out path to confirm
-	Console.WriteLine (dbpath);
+Console.WriteLine (CrossGetLocalFilePath.Current.GetLocalPath("mydb.db3"));
 </code></pre>
